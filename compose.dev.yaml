@@ -1,0 +1,8 @@
+# 本机直接运行 Java / Next.js 时，只启动 mysql 和 redis 两个服务。
+services:
+  mysql:
+    ports:
+      - "127.0.0.1:${DEV_MYSQL_PORT:-43306}:3306"
+  redis:
+    ports:
+      - "127.0.0.1:${DEV_REDIS_PORT:-46379}:6379"

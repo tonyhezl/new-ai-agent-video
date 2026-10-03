@@ -1,0 +1,48 @@
+# Workspace runtime data
+/.env
+/.env.*
+!/.env.example
+/backups/
+/ai--agent-video/data/
+/data/
+/logs/
+*.log
+*.pid
+*.pid.lock
+hs_err_pid*
+replay_pid*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE and editor artifacts
+.idea/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*~
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Patch / merge leftovers
+*.orig
+*.rej
+
+# Local development tools
+/.agents/
+/.codex/
+/.vscode/
+
+# Internal delivery checks and private agreement documents
+/docs/源码交付前第三方标识与版权检查报告.md
+/docs/开源项目痕迹复查报告-*.md
+/docs/*协议*
+/docs/*.docx
+.codegraph/
+dump.rdb
